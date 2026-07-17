@@ -1,8 +1,13 @@
-from app import Application
+"""
+Package entry point.
+"""
 
-def main():
-    app = Application()
-    app.run()
+from morse_trainer.app import Application
+
+
+def main() -> None:
+    Application().run()
+
 
 if __name__ == "__main__":
     main()
