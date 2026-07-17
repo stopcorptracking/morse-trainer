@@ -2,7 +2,7 @@
 Tests for the core.morse module.
 """
 
-from core.morse import (
+from morse_trainer.core.morse import (
     TEXT_TO_MORSE,
     text_to_morse,
     morse_to_text,
