@@ -44,14 +44,14 @@ class AppController:
 
         print(text_to_morse(text))
 
-        input("\nPress ENTER...")
+        input("\nPress ENTER***")
 
     def translate_morse(self):
 
-        code = input("\nEnter Morse:\n")
+        code = input("\nEnter Morse (Please leave space in-between):\n")
 
         print()
 
         print(morse_to_text(code))
 
-        input("\nPress ENTER...")
+        input("\nPress ENTER***")
