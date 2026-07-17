@@ -1,6 +1,8 @@
 iniconfig==2.3.0
 markdown-it-py==4.2.0
 mdurl==0.1.2
+# Editable Git install with no remote (morse-trainer==0.1.0)
+-e /home/jackie/Desktop/morse-trainer
 packaging==26.2
 pluggy==1.6.0
 Pygments==2.20.0
